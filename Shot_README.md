@@ -6,7 +6,7 @@ This project uses the **Wiki Movie Plots Dataset** from Kaggle, which contains m
 
 ### Steps to Load the Dataset
 
-1. Download the dataset from Kaggle: [Wiki Movie Plots Deduped](https://www.kaggle.com)
+1. Download the dataset from Kaggle: [Wiki Movie Plots Deduped]([https://www.kaggle.com](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots?resource=download))
 2. Save the file as `wiki_movie_plots_deduped.csv` in the project directory.
 3. The script automatically loads and processes the dataset.
 
@@ -26,14 +26,6 @@ This project uses the **Wiki Movie Plots Dataset** from Kaggle, which contains m
    ```
 
 ## Running the Code
-
-You can run the script using the command line in VS Code.
-
-### Command Line
-
-```sh
-python recommend.py "I enjoy movies about time travel and complex narratives"
-```
 
 ### VS Code
 
