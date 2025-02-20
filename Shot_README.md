@@ -6,9 +6,9 @@ This project uses the **Wiki Movie Plots Dataset** from Kaggle, which contains m
 
 ### Steps to Load the Dataset
 
-1. Download the dataset from Kaggle: [Wiki Movie Plots Deduped]([https://www.kaggle.com](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots?resource=download))
+1. Download the dataset from Kaggle: [Wiki Movie Plots Deduped] - [https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots?resource=download](url)
 2. Save the file as `wiki_movie_plots_deduped.csv` in the project directory.
-3. The script automatically loads and processes the dataset.
+3. The script automatically loads and processes the dataset (reduce the sample to 200 for quick processing and save that sample file as sampled_movie_dataset.csv)
 
 ## Setup
 
