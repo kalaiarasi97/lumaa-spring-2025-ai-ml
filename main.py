@@ -48,11 +48,11 @@ print("Stopwords loaded:", len(stop_words))  # Check if stopwords are loaded pro
 
 def clean_text(text):
     print("Original:", text)  # Debugging line
-    text = text.lower()
-    text = re.sub(r'\W', ' ', text)
-    text = re.sub(r'\s+', ' ', text).strip()
-    words = word_tokenize(text)
-    words = [lemmatizer.lemmatize(word) for word in words if word not in stop_words]
+    text = text.lower()    #converting all text to lower case
+    text = re.sub(r'\W', ' ', text) # Replace all non-word characters (punctuation, special characters) with a space
+    text = re.sub(r'\s+', ' ', text).strip() # Replace multiple consecutive spaces with a single space and trim leading/trailing spaces
+    words = word_tokenize(text)  #tokenize words
+    words = [lemmatizer.lemmatize(word) for word in words if word not in stop_words] #lemmatize and remove stop words
     cleaned_text = " ".join(words)
     return cleaned_text
 
